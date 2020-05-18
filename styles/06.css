@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+p {
+    font-family: sans-serif;
+    color: white;
+}
+
+li {
+    font-family: monospace;
+    color: white;
+    list-style: disc; /* mudar o formato da bolinha */
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: red;
+    background-color: red;
+}
+
+a:visited {
+    color: azure;
+}

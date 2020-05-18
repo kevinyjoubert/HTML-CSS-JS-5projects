@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 0px;
+    padding-left: 25px;
+    background-color: red;
+    width: 300px;
+    height: 35px;
+}
+
+h2 {
+    font-family: monospace;
+    border-bottom-color: red;
+    border-bottom-style: dotted;
+    border-bottom-width: 5px;
+    padding: 25px;
+}
+
+p {
+    font-family: monospace;
+    font-variant: normal;
+    text-align: left;
+    text-decoration: line-through; /* deixa riscado */
+    text-indent: 20px; /* espaçamento no inicio do paragrafo */
+    text-transform: none; /* decidir se tudo fica maiuscula ou minuscula */
+}
+
+p.segundo {
+    color: red;
+}
