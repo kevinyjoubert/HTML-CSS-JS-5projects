@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+h1.nome {
+    background-color: rgb(173, 20, 20);
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+h2 {
+    background-color: red;
+    margin: 20px 20px 20px 20px;
+    border-bottom: inset 2px;
+}
+
+h4 {
+    margin: 20px 20px 20px 20px;
+}
+
+h5 {
+    margin: 20px 20px 20px 20px;
+}
+
+p {
+    margin: 20px 20px 20px 20px;
+    font-size: 10px;
+    font-family: monospace;
+}
+
+li {
+    margin: 5px auto;
+    font-size: 10px;
+    font-family: monospace;
+}
