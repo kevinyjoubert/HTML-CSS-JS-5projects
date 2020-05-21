@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+h1, p, div, footer {
+    border
+}
+
+p {
+    width: 50%;
+    padding: 25px;
+}
+
+div {
+    margin: 50px;
+}
+
+b, em, a, span {
+    background-color: yellow;
+}
+
+em {
+    height: 50px;
+    width: 200px;
+    margin: 5px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+img, span{
+    display: block;
+}
