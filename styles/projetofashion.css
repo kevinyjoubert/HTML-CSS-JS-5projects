@@ -1,0 +1,119 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+.cabeca {
+    background-image: url(../Projeto_Fashion/imagens/topo.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 0px solid transparent;
+}
+
+.logotipo {
+     position: absolute;
+     margin: 0px 0px 0px 150px;
+}
+
+.cor {
+    background-color: rgba(3, 20, 20, 0.692);
+    border-top: 1px solid transparent;
+    height: 40px;
+    margin: 0px;
+}
+
+.cabeca nav ul {
+    color: white;
+    text-align: right;
+    font-style: italic;
+    margin: 8px 10px 0px 0px;
+}
+
+.cabeca nav li {
+    display: inline-block;
+    border: 2px solid transparent;
+    list-style: none;
+   margin-right: 5px;
+}
+
+.cabeca nav a {
+    color: rgb(3, 94, 94);
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
+
+.cabeca nav a:hover {
+    color: white;
+}
+
+.content1 {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.content1 h1 {
+    font-size: 40px;
+}
+
+.content1 p {
+    font-style: italic;
+}
+
+.cards {
+    margin: auto;
+    text-align: center;
+    padding: 12px;
+    overflow: auto;
+    width: 70%;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card1, .card2 {
+    margin-right: 2%;
+    
+}
+
+.cards p {
+    font-style: italic;
+}
+
+.detalhe {
+    background-image: url(../Projeto_Fashion/imagens/bg_detalhe.png);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+}
+
+.textodetalhe h2 {
+    color: white;
+    display: inline-block;
+    width: 550px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-left: 100px;
+    
+}
+
+.textodetalhe p {
+    color: white;
+    width: 500px;
+    position: absolute;
+    margin: 200px 0px 0px 100px;
+    border: 2px solid red;
+}
