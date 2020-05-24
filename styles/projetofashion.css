@@ -116,3 +116,23 @@ body {
     position: absolute;
     margin: 200px 0px 0px 100px;
 }
+
+.call {
+    text-align: center;
+    color: rgb(0, 98, 105);
+    width: 350px;
+    margin: auto;
+}
+
+.local {
+    margin: auto;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(14, 31, 51);
+}
