@@ -1,0 +1,13 @@
+li ul {
+    height: 0;
+    overflow: hidden;
+}
+
+li:hover {
+    background-color: #ccc;
+}
+
+li:hover ul {
+    height: 40px;
+    transition height: .5s;
+}
