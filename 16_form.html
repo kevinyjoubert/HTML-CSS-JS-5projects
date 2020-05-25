@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+
+    <form action="http://google.com/search" method="GET" target="_blank">
+        <label for="txtbusca">Faça uma busca</label>
+        <input type="text" name="q" id="txtbusca">
+        <input type="button" value="OK">
+    </form>
+
+    <form action="pagina.php" method="post">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="log">User:</label>
+            <input type="text" name="text" id="log">
+            <label for="pass">Password</label>
+            <input type="text" name="text" id="pass">
+            <input type="button" value="Entrar">
+        </fieldset>
+    </form>
+</body>
+</html>
