@@ -1,5 +1,5 @@
 .formLogin {
-    width: 250px;
+    width: 257px;
     margin: 50px auto 0;
     font-family: sans-serif;
 }
@@ -32,4 +32,9 @@
 
 #user {
     margin-bottom: 15px;
+}
+
+
+.file {
+    font-size: 10px;
 }

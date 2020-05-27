@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#radius {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    border-radius: 50px 100px / 50px 100px;
+}
