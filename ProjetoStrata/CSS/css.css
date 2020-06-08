@@ -134,6 +134,7 @@ textarea {
     width: auto;
     transition: all .5s;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 .button-default:hover {
     background-color: #41d1a8;
@@ -271,6 +272,42 @@ textarea {
     border-radius: 15px;
 }
 
+.main-footer {
+    position: fixed;
+    bottom: 0;
+    width: 35%;
+    left: 0;
+    padding: 0 54px 72px;
+    box-sizing: border-box;
+    text-align: right;
+    color: rgba(255, 255, 255, .5);
+}
+.main-footer a {
+    color: inherit;
+}
+.main-footer a:hover {
+    color: #49bf9d;
+}
+.copyright li {
+    list-style: none;
+    display: inline-block;
+}
+.copyright li:last-child {
+    border-left: 1px solid rgba(255, 255, 255, .5);
+    margin-left: 10px;
+}
+.main-footer .ul-icons {
+    font-size: 1.4em;
+    margin-right: 38px;
+}
+.main-footer .ul-icons a {
+    border-bottom: none;
+    color: rgba(255, 255, 255, .5);
+}
+.main-footer .ul-icons a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
 /* Grid */
 .row {
     overflow: auto;
@@ -288,7 +325,7 @@ textarea {
 }
 
 .col-2-3 {
-    width: 65%;
+    width: 64%;
     float: left;
 }
 .col-1-3 {
