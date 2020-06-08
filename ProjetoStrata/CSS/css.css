@@ -55,6 +55,9 @@ blockquote {
     margin: 2em 0;
     padding: .5em 0 .5em 1.5em;
 }
+.lastblockquote {
+    margin-bottom: 0;
+}
 
 code {
     background-color: #f7f7f7;
@@ -76,6 +79,12 @@ ul, ol {
 }
 li {
     padding-left: .5em;
+}
+.hidden {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    display: block;
 }
 
 .ul-alternate {
@@ -211,6 +220,11 @@ textarea {
     text-align: right;
 }
 
+.main-header p {
+    font-size: 1.2em;
+    color: rgb(59, 59, 59);
+}
+
 .main-header-title {
     font-size: 22px;
     line-height: 1.5;
@@ -291,6 +305,7 @@ textarea {
 .copyright li {
     list-style: none;
     display: inline-block;
+    font-size: .8em;
 }
 .copyright li:last-child {
     border-left: 1px solid rgba(255, 255, 255, .5);
@@ -298,7 +313,7 @@ textarea {
 }
 .main-footer .ul-icons {
     font-size: 1.4em;
-    margin-right: 38px;
+    margin-right: 15px;
 }
 .main-footer .ul-icons a {
     border-bottom: none;

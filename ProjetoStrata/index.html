@@ -20,9 +20,9 @@
         <h1 class="main-header-title">
             Trabalhos e groselhas de <br>
             <strong>Daniel Tapias Morales,</strong> <br>
-            um zé ninguém qualquel <br>
-            Retirado de <a href="http://html5up.net" class="main-header-link">html5up.net</a>.
+            um zé ninguém qualquel
         </h1>
+        <p>Retirado de <a href="http://html5up.net" class="main-header-link">html5up.net</a></p>
     </header>
 
     <main class="main-content">
@@ -41,7 +41,7 @@
                     <div class="col-2">
                         <article class="recent-works-card">
                             <a href="images/fulls/01.jpg" class="imagem-link">
-                            <img src="images/thumbs/01.jpg" title="descrição" alt="01">
+                            <img src="images/thumbs/01.jpg" alt="01">
                             </a>
                             <p class="recent-works-card-title">Magna sed consequat tempus</p>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -49,7 +49,7 @@
                         
                         <article class="recent-works-card">
                             <a href="images/fulls/02.jpg" class="imagem-link">
-                            <img src="images/thumbs/02.jpg" title="descrição" alt="02">
+                            <img src="images/thumbs/02.jpg" alt="02">
                             </a>
                             <p class="recent-works-card-title">Ultricies lacinia interdum</p>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -57,7 +57,7 @@
                         
                         <article class="recent-works-card">
                             <a href="images/fulls/03.jpg" class="imagem-link">
-                            <img src="images/thumbs/03.jpg" title="descrição" alt="03">
+                            <img src="images/thumbs/03.jpg" alt="03">
                             </a>
                             <p class="recent-works-card-title">Tortor metus commodo</p>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -66,7 +66,7 @@
                     <div class="col-2">
                         <article class="recent-works-card">
                             <a href="images/fulls/04.jpg" class="imagem-link">
-                            <img src="images/thumbs/04.jpg" title="descrição" alt="04">
+                            <img src="images/thumbs/04.jpg" alt="04">
                             </a>
                             <p class="recent-works-card-title">Quam neque phasellus</p>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -74,7 +74,7 @@
                         
                         <article class="recent-works-card">
                             <a href="images/fulls/05.jpg" class="imagem-link">
-                            <img src="images/thumbs/05.jpg" title="descrição" alt="05">
+                            <img src="images/thumbs/05.jpg" alt="05">
                             </a>
                             <p class="recent-works-card-title">Nunc enim commodo aliquet</p>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -82,7 +82,7 @@
                         
                         <article class="recent-works-card">
                             <a href="images/fulls/06.jpg" class="imagem-link">
-                            <img src="images/thumbs/06.jpg" title="descrição" alt="06">
+                            <img src="images/thumbs/06.jpg" alt="06">
                             </a>
                             <p class="recent-works-card-title">Risus ornare lacinia</p>
                             <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -123,17 +123,17 @@
                 <div class="col-1-3">
                         <address>
                             <p>
-                                <span>Endereço</span>
+                                <span>Endereço: </span>
                                 123 Somewhere Rd. Nashville, TN 00000 United States
                             </p>
                             
                             <p>
-                                <span>Telefone</span>
+                                <span>Telefone: </span>
                                 000-000-000
                             </p>
 
                             <p>
-                                <span>E-mail</span>
+                                <span>E-mail: </span>
                                 email@server.com
                             </p>
                         </address>
@@ -161,8 +161,9 @@
 
             <h4>Blockquote</h4>
             <blockquote cite="http://developer.mozilla.org">
-                Esta é uma citação tirada da
-                Mozilla Developer Center.
+                <p>Esta é uma citação tirada da
+                Mozilla Developer Center.</p>
+                <p class="lastblockquote">Outros paragrafos</p>
               </blockquote>
 
             <p>According to Mozilla's website,
@@ -172,13 +173,11 @@
             </p>
               
             <h4>Preformatado</h4>
-            <pre>
-                <code>
+            <pre><code>
                     &lt;script&gt;
                         alert('oi')
                     &lt;script&gt;
-                </code>
-            </pre>
+                </code></pre>
 
             <h4>Listas</h4>
 
@@ -210,8 +209,8 @@
             
                     <h5>Icons</h5>
                     <ul class="ul-icons">
-                        <li><i color="blue" class="fab fa-twitter"></i></li>
-                        <li><i color="blue" class="fab fa-facebook-square"></i></li>
+                        <li><span class="hidden">Twitter</span><i color="blue" class="fab fa-twitter"></i></li>
+                        <li><span class="hidden">Facebook</span><i color="blue" class="fab fa-facebook-square"></i></li>
                     </ul>
                 </div>
             </div>
@@ -363,7 +362,7 @@
 
             <h5>Forms</h5>
 
-            <form action="name">
+            <form action="#" method="POST">
                 <label for="name">Nome</label>
                 <input type="text" name="name" id="name" placeholder="Digite seu nome">
 
@@ -425,9 +424,9 @@
     <footer class="main-footer">
 
         <ul class="ul-icons">
-            <li><a href="#" class="icon-link"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#" class="icon-link"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a href="#" class="icon-link"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#" class="icon-link"><span class="hidden">Instagram</span><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="icon-link"><span class="hidden">Facebook</span><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#" class="icon-link"><span class="hidden">Youtube</span><i class="fab fa-youtube"></i></a></li>
         </ul>
         <ul class="copyright">
             <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
