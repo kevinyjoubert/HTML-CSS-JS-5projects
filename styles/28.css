@@ -1,0 +1,14 @@
+p::first-letter {
+    float: left;
+    font-size: 3em;
+    display: inline-block;
+    margin-right: .1em;
+}
+
+p::first-line {
+    color: red;
+}
+
+p::selection {
+    background-color: whitesmoke;
+}
