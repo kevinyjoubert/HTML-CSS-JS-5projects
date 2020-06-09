@@ -1,0 +1,31 @@
+input[type="checkbox"] {
+    width: 100px;
+    height: 100px;
+}
+input[type="checkbox"]:checked {
+    width: 50px;
+    height: 50px;
+}
+
+button:disabled {
+    background-color: blue;
+}
+
+p {
+    color: red;
+}
+p:empty:before {
+    content: "paragrafo vazio nao dá ne!";
+}
+
+input[type="text"]:focus {
+    background-color: #ccc;
+}
+
+a:focus, a:hover, div:focus {
+    background-color: red;
+}
+
+input::placeholder {
+    color: red;
+}
