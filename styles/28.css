@@ -10,5 +10,9 @@ p::first-line {
 }
 
 p::selection {
-    background-color: whitesmoke;
+    background-color: yellow;
+}
+
+p::-moz-selection {
+    background-color: yellow;
 }
