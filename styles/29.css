@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.div1 {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    transform: translate(50%, 50%);
+    /* position: relative;
+    top: 50px;
+    left: 50px; */
+}
+.div2 {
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    left: 50%;
+}
+.div3 {
+    width: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.div3-interna {
+    background-color: yellow;
+    transform: translate(80%, 25px);
+}
+
+.div4 {
+    width: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.div4-interna {
+    background-color: yellow;
+    transform: rotate(-10deg);
+}
+
+.div5 {
+    width: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.div5-interna {
+    background-color: yellow;
+    transform: rotate(30deg);
+    transform-origin: left top;
+}
+
+.div6 {
+    width: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.div6-interna {
+    background-color: yellow;
+    transform: rotate(30deg) translate(50px);
+}
+
+.div7 {
+    width: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.div7-interna {
+    background-color: yellow;
+    transform: translate(50px) rotate(30deg) ;
+}
+
+.div8 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transform: skew(-30deg, 50deg);
+}
+
+.div9 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: scale().5) translateX(50%);
+}
+.div9:hover {
+    transform: scale(2);
+}
