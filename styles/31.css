@@ -29,8 +29,12 @@ label input:checked + span::before {
     transform: translatex(30px);
     background-color: red;
 }
+label input:focus + span {
+    box-shadow: 0 0 0 2px #49bf9d;
+    box-sizing: border-box;
+}
 input {
-    visibility: hidden;
+    opacity: 0;
     width: 0px;
     height: 0px;
     overflow: hidden;
