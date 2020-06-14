@@ -12,6 +12,7 @@ a {
 a img {
     width: 100%;
     display: block;
+    border-radius: 12px;
 }
 
 a::before {
@@ -27,6 +28,7 @@ a::before {
 
 a:hover::before {
     background-color: rgba(0, 0, 0, .5);
+    border-radius: 12px;
 }
 
 a::after {
