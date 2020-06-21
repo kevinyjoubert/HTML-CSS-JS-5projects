@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 8px;
     color: white;
     text-decoration: none;
+    transition: all .8s;
 }
 .button:hover {
     background-color: #37a0a0;
@@ -91,4 +92,37 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: .2em;
     font-weight: normal;
+}
+
+.hidden {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+}
+
+.footer {
+    background-color: #25383e;
+    color: #83969f;
+    text-align: center;
+    padding-bottom: 2em;
+}
+.footer-menushare {
+    background-color: #303d4c;
+    padding: .5em;
+}
+
+.footer-menushare li {
+    display: inline-block;
+    margin: 0 1em;
+}
+.footer-menushare a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+    transition: all .8s;
+}
+.footer-menushare a:hover {
+    color: rgba(255, 255, 255, .5);
 }
