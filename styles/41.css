@@ -88,9 +88,16 @@
     background-image: repeating-linear-gradient(red 0%, yellow 10%, blue 50%);
     background-clip: padding-box;
 }
-/*  */
+/* gradiente radial repeating com alternancia de cores */
 .grupo-cores div:nth-child(16) {
     background-image: repeating-radial-gradient(red 0%, transparent, blue 33.33%), linear-gradient(red, blue);
     background-clip: padding-box;
     background-attachment: scroll, fixed;
+}
+.grupo-cores div:nth-child(17) {
+    background-image: radial-gradient(closest-corner at 50% 25%, black, transparent), url(../imagens/bg.jpg);
+    background-size: cover;
+    background-position: center -30px;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
 }
