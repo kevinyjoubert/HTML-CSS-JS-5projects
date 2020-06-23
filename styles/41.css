@@ -16,3 +16,81 @@
 .grupo-cores div::before {
     content: '[' counter(contador) ']';
 }
+/* definição de cor por nome */
+.grupo-cores div:nth-child(2) {
+    background-color: royalblue;
+    background-clip: padding-box;
+}
+/* definicao de cor com red, green and blue */
+.grupo-cores div:nth-child(3) {
+    background-color: rgb(50%, 50%, 0%);
+    background-clip: padding-box;
+}
+/* cor com definicao de red, green and blue e transparencia */
+.grupo-cores div:nth-child(4) {
+    background-color: rgba(50%, 50%, 0%, .5);
+    background-clip: padding-box;
+}
+/* definição de cor por grau, saturação e luminosidade */
+.grupo-cores div:nth-child(5) {
+    background-color: hsl(20deg, 70%, 50%);
+    background-clip: padding-box;
+}
+/* definição de cor por grau, saturação, luminosidade e transparencia */
+.grupo-cores div:nth-child(6) {
+    background-color: hsla(0deg, 70%, 50%, .5);
+    background-clip: padding-box;
+}
+/* definicao de cor gradiente linear */
+/* pode-se usar somente cores, atributos com 'to..' para orientação da cor ou transparent */
+/* pode-se aplicar tambem mais de um grandiente separando linear-grandient por virgula */
+.grupo-cores div:nth-child(7) {
+    background-image: linear-gradient(to bottom left, blue, red);
+    background-clip: padding-box;
+}
+/* gradientes radiais ou radial */
+.grupo-cores div:nth-child(8) {
+    background-image: radial-gradient(red, blue);
+    background-clip: padding-box;
+}
+/* gradientes radiais ou radial - circular */
+.grupo-cores div:nth-child(9) {
+    background-image: radial-gradient(circle, red, blue);
+    background-clip: padding-box;
+}
+/* gradientes radiais ou radial - atributo com varias cores */
+.grupo-cores div:nth-child(10) {
+    background-image: radial-gradient(ellipse, red 40%, rgba(50, 10, 200, .7), orange, green);
+    background-clip: padding-box;
+}
+/* gradientes radiais ou radial - atributo farthest-side com varias cores - 1 */
+.grupo-cores div:nth-child(11) {
+    background-image: radial-gradient(closest-side at 20% 50%, red 40%, rgba(50, 10, 200, .7), orange, green);
+    background-clip: padding-box;
+}
+/* gradientes radiais ou radial - atributo farthest-side com varias cores - 1 */
+.grupo-cores div:nth-child(12) {
+    background-image: radial-gradient(farthest-side at 20% 50%, red 40%, rgba(50, 10, 200, .7), orange, green);
+    background-clip: padding-box;
+}
+/* gradientes radiais ou radial - atributo farthest-side com varias cores - 2 */
+.grupo-cores div:nth-child(13) {
+    background-image: radial-gradient(closest-corner at 20% 50%, red 40%, rgba(50, 10, 200, .7), orange, green);
+    background-clip: padding-box;
+}
+/* gradientes radiais ou radial - atributo farthest-side com varias cores - 2 */
+.grupo-cores div:nth-child(14) {
+    background-image: radial-gradient(farthest-corner at 20% 50%, red 40%, rgba(50, 10, 200, .7), orange, green);
+    background-clip: padding-box;
+}
+/* grandiente linear - repeat */
+.grupo-cores div:nth-child(15) {
+    background-image: repeating-linear-gradient(red 0%, yellow 10%, blue 50%);
+    background-clip: padding-box;
+}
+/*  */
+.grupo-cores div:nth-child(16) {
+    background-image: repeating-radial-gradient(red 0%, transparent, blue 33.33%), linear-gradient(red, blue);
+    background-clip: padding-box;
+    background-attachment: scroll, fixed;
+}
