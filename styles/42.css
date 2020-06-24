@@ -115,3 +115,16 @@
 .flexbox:nth-child(13) div:nth-child(1) {
     align-self: stretch;
 }
+
+.flexbox:nth-child(14) {
+    /* defini os elementos na vertical */
+    justify-content: center;
+    /* defini os elementos na horizontal */
+    align-items: flex-end;
+    /* colum, inverte os valores acimas */
+    flex-direction: column;
+    height: 500px;
+}
+.flexbox:nth-child(14) div {
+    flex-basis: 60px;
+}
