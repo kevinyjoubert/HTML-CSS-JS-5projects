@@ -35,10 +35,53 @@
 }
 .flexbox:nth-child(8) {
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
-    align-content: center;
+    align-content: stretch;
 }
 .flexbox:nth-child(8) div {
     width: 100px;
+}
+.flexbox:nth-child(9) {
+    justify-content: center;
+    align-items: center;
+}
+.flexbox:nth-child(9) div {
+    background-color: yellow;
+    flex-basis: 50px;
+    height: 50px;
+}
+.flexbox:nth-child(10) {
+    justify-content: center;
+    align-items: center;
+}
+.flexbox:nth-child(10) div {
+    background-color: yellow;
+    flex-basis: 50px;
+    height: 50px;
+}
+.flexbox:nth-child(10) div:nth-child(2) {
+    flex-grow: 2;
+    /* dividi os espacos sobrando e inseri na largura do elemento */
+}
+.flexbox:nth-child(10) div:nth-child(4) {
+    flex-grow: 1;
+}
+.flexbox:nth-child(11) {
+    justify-content: center;
+    align-items: center;
+}
+.flexbox:nth-child(11) div {
+    background-color: yellow;
+    flex-basis: 300px;
+    height: 50px;
+}
+.flexbox:nth-child(11) div:nth-child(2) {
+    flex-shrink: 2;
+    /* dividi os espacos sobrando e diminui na largura do elemento */
+}
+.flexbox:nth-child(11) div:nth-child(4) {
+    /* flex-shrink: 1; */
+    /* ordem abaixo - grow, shrink e basis */
+    flex: 0 2 100px;
 }
