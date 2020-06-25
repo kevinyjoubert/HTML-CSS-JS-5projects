@@ -1,5 +1,5 @@
 .gridContainer {
-    width: 300px;
+    width: 100%;
     background-color: #ccc;
 }
 
@@ -21,10 +21,17 @@
 .gridContainer {
     display: grid;
     /* grid-template-columns: 100px 100px 100px; */
-    grid-template-columns: repeat(3, 85px);
-    grid-template-rows: 100px 100px;
+    grid-template-columns: repeat(3, 1fr) 100px;
+    grid-template-rows: 100px 100px 100px;
     /* grid-row-gap: 30px;
     grid-column-gap: 15px; */
-    grid-gap: 30px 15px;
+    grid-gap: 30px 10px;
+}
 
+.gridItem:nth-child(1) {
+    background-color: red;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
