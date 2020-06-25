@@ -20,8 +20,11 @@
 /* GRID */
 .gridContainer {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    /* grid-template-columns: 100px 100px 100px; */
+    grid-template-columns: repeat(3, 85px);
     grid-template-rows: 100px 100px;
+    /* grid-row-gap: 30px;
+    grid-column-gap: 15px; */
+    grid-gap: 30px 15px;
 
-    grid-template-columns: repeat(2, 75px) 100px;
 }
