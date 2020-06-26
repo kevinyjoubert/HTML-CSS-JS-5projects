@@ -7,7 +7,11 @@
     /* auto-fit - preenche com quantos itens tiver / auto-fill - preenche somente até o tamanho definido */
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     /* grid-template-rows - defini o tamanho dos elementos */
-    grid-template-rows: 100px 100px;
+    /* grid-template-rows: 100px 100px; */
+    
+    /* definir um tamanhho fixo para todos os elementos, somente usar grid-auto-rows */
+    /* se colocar mais de um valor, ele irá alterar o tamanho */
+    grid-auto-rows: 100px 50px;
 }
 .gridItem {
     background-color: orange;
