@@ -1,0 +1,18 @@
+.gridContainer {
+    width: 90%;
+    margin: auto;
+    background: #ccc;
+    display: grid;
+    grid-gap: 10px;
+    /* auto-fit - preenche com quantos itens tiver / auto-fill - preenche somente até o tamanho definido */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* grid-template-rows - defini o tamanho dos elementos */
+    grid-template-rows: 100px 100px;
+}
+.gridItem {
+    background-color: orange;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+/* GRID */
