@@ -19,6 +19,7 @@
 
 /* GRID */
 .gridContainer {
+    width: 100%;
     display: grid;
     /* grid-template-columns: 100px 100px 100px; */
     grid-template-columns: repeat(3, 1fr) 100px;
@@ -30,8 +31,13 @@
 
 .gridItem:nth-child(1) {
     background-color: red;
-    grid-row-start: 1;
+    /* grid-row-start: 1;
     grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-start: 2; */
+    /* colocar -1, significa sempre a ultima linha do elemento automaticamente */
+    /* grid-column-end: -1; */
+
+    /* maneira mais curta de escrever os codigos acima */
+    grid-row: 1 / 2;
+    grid-column: 2 / -1 ;
 }
