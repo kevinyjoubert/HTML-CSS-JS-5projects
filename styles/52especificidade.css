@@ -1,0 +1,15 @@
+.destaque {
+    color: red;
+}
+
+#unico {
+    color: blue;
+}
+
+p.destaque {
+    color: orange;
+}
+
+p {
+    color: green;
+}
