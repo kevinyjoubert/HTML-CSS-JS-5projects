@@ -1,0 +1,46 @@
+@keyframes slide {
+    from, 22% {
+        transform: translateY(0);
+    }
+    25%, 47% {
+        transform: translateY(-50vh);
+    }
+    50%, 72% {
+        transform: translateY(-100vh);
+    }
+    75%, 97% {
+        transform: translateY(-150vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(22, 21, 21);
+    margin: 0;
+}
+
+.slide-externo {
+    width: 80vw;
+    height: 50vh;
+    border: 10px solid white;
+    box-shadow: 0 0 10px black;
+    margin-left: 10vw;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.slide-interno {
+    width: 100%;
+    animation: slide 6s infinite cubic-bezier(.06,1.03,.93,.26);
+}
+.slide-interno img {
+    display: block;
+    height: 50vh;
+    width: 100%;
+    /* funciona como o background-size */
+    /* object-fit: cover; */
+}
