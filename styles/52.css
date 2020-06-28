@@ -1,0 +1,61 @@
+@keyframes anda {
+    from {
+        transform: translateX(0);
+        background-color: yellow;
+    }
+    
+    to {
+        transform: translateX(400px);
+        background-color: blue;
+    }
+}
+
+/* 
+sequencia do animation no shorthand
+animation-name - nome definido pra animacao
+animation-duration - duracao da animacao
+animation-timing-function - efeito da animacao
+animation-delay - delay da animacao
+animation-iteration-count - numero de vezes que repete a animacao
+animation-direction - defini se a animacao inicia pelo inicio ou pelo fim
+animation-fill-mode - alterna entre manter as mesmas propriedades adquiridas em from ou to
+animation-play-state - pode ser usado para fazer algum efeito de hover pausando
+*/
+
+#anima-time div {
+    width: 80px;
+    height: 50px;
+    border: 3px solid red;
+}
+
+#anima-time div:nth-child(1) {
+    animation: anda 2s ease-in-out;
+    /* ease-in - acelera / ease-out - desacelera */
+    /* ease-in-out - acelera no inicio e desacelera no final */
+    /* animation-timing-function: ease-in-out; */
+}
+#anima-time div:nth-child(2) {
+    /* animation: anda 2s 3; */
+    /* quantas vezes a gente quer que a animacao apareça na tela - podendo colocar numero ou infinite */
+    /* animation-iteration-count: 3; */
+
+    /* alternate - faz a animacao ir e voltar / alternate-reverse - faz ela ir e voltar do final para o inicio */
+    /* animation-direction: alternate; */
+
+
+    animation: anda 2s ease-in-out infinite alternate;
+}
+#anima-time div:nth-child(3) {
+    animation: anda 2s ease-in-out 1s infinite alternate;
+}
+#anima-time div:nth-child(4) {
+    background-color: red;
+    animation: anda 3s ease-in-out 1s 2 alternate forwards;
+}
+#anima-time div:nth-child(5) {
+    background-color: red;
+    animation: anda 3s ease-in-out 1s infinite alternate forwards running;
+}
+#anima-time div:nth-child(5):hover {
+    animation-play-state: paused;
+}
