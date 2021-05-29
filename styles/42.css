@@ -23,6 +23,7 @@
 }
 .flexbox:nth-child(5) div {
     width: 20px;
+    background-color: red;
 }
 
 .flexbox:nth-child(6) {
